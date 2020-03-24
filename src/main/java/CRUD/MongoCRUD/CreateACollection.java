@@ -37,6 +37,7 @@ public class CreateACollection {
 				.append("url", "http://www.tutorialspoint.com/mongodb/") 
 				.append("by", "tutorials point");  
 		collection.insertOne(document); 
+		
 		System.out.println("Document inserted successfully");  
 
 		// Retriving Data [MongoDB Query : db.sampleCollection.find()]
